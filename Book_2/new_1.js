@@ -5,7 +5,8 @@
   <div data-widget-name="menu">Choose the genre</div>
 
   <script>
-    /* your code */
+	let elem = document.querySelector('[data-widget-name]');
+    elem.getAttribute(data-widget-name)
   </script>
 </body>
 </html>
